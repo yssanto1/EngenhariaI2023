@@ -1,0 +1,12 @@
+@startuml Universidade
+left to right direction
+actor Aluno as c
+package Profissional {
+  actor Coordenador as co     
+  actor Professoor as pr 
+  actor Reitoria as re 
+  actor Segurança as seg 
+  actor "Atendente alimentos" as aa 
+  actor "Funcionária Limpeza" as fl  
+}
+@enduml
