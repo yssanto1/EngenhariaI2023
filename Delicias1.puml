@@ -1,0 +1,37 @@
+@startuml
+
+actor João
+actor Maria
+actor Pedro
+actor Ana
+actor Carlos
+
+package "Gerenciamento de Compras" {
+    João --> (Selecionar Fornecedores)
+    João --> (Fazer Pedidos)
+    João --> (Negociar Preços)
+}
+
+package "Gerenciamento de Estoque" {
+    Maria --> (Organizar Armazenamento)
+    Maria --> (Verificar Conformidade)
+}
+
+package "Coordenação de Produção" {
+    Pedro --> (Coordenar Utilização)
+    Pedro --> (Otimizar Utilização)
+}
+
+package "Controle de Qualidade" {
+    Ana --> (Monitorar Processo)
+    Ana --> (Verificar Padrões)
+    Ana --> (Conduzir Inspeções)
+}
+
+package "Gerenciamento de Vendas e Distribuição" {
+    Carlos --> (Coordenar Entrega)
+    Carlos --> (Registrar Vendas)
+    Carlos --> (Fornecer Informações)
+}
+
+@enduml
